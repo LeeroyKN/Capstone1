@@ -13,6 +13,11 @@ function callValue(){
     document.writeln(
         "Your Laptime: "+Ltime
     )
+    document.writeln(
+        "Your FastestLap: "+FastestLap
+    )
+    
+
 
     
     
