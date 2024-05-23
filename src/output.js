@@ -16,7 +16,9 @@ function callValue(){
     document.writeln(
         "Your FastestLap: "+FastestLap
     )
-    
+    document.writeln(
+        "Penalties incurred: "+Penalties
+    )
 
 
     
