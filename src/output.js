@@ -10,6 +10,10 @@ function callValue(){
     document.writeln(
         "Your Teamname: "+Tname
     )
+    document.writeln(
+        "Your Laptime: "+Ltime
+    )
+
     
     
 
