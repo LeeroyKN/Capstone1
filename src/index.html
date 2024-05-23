@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='' rel='stylesheet'>
     <link rel="stylesheet" href="/Capstone1/src/css/styles.css">
     <title>GP Karting login and Registration</title>
     <h1>GP-KARTING</h1>
@@ -13,7 +13,7 @@
     <div class="wrapper"
     
         <div class="nav-menu">
-            <p>GP KARTING</p>
+            <p>GP KARTING SIGN IN/UP</p>
             <ul>
                 <li><a href="index.html" class="">Home</a></li>
                 <li><a href="contact.html" class="">contact</a></li>
@@ -24,8 +24,11 @@
 
         </div> 
         <div class="nav-button">
-            <button class="btn" id="loginBtn">Sign in</button>
-            <button class="btn" id="RegistBtn">Sign up</button>
+            <a href="output.html" class="">Press after Sign In</a></li>
+            <a href="output.html" class="">Press after sign up</a></li>
+
+            <button >Sign in</button>
+            <button class="btn btn-primary" id="SignInBtn" onclick=>sign up</button>
         </div>
         <div class="nav-menu-btn">
             <i class="bx bx-menu onclick="myMenuFunction()></i>
@@ -47,7 +50,7 @@
                 <i class="bx bx-lock-alt"></i>
             </div>
             <div class="input-box">
-                <input type="submit" class="submit" value="Sign In">
+               
             </div>
             <div class="two-col">
                 <div class="one">
@@ -55,14 +58,14 @@
                     <label for="login-check"> Remember Me</label>
                 </div>
                 <div class="two">
-                    <label><a href="#">Forgot password?</a></label>
+                    
                 </div>
             </div>
         </div>
         
         <div class="register-container" id="register">
             <div class="top">
-                <span>Have an account? <a href="#" onclick="login()">Login</a></span>
+                
                 <header>Sign Up</header>
             </div>
             <div class="two-forms">
@@ -84,7 +87,7 @@
                 <i class="bx bx-lock-alt"></i>
             </div>
             <div class="input-box">
-                <input type="submit" class="submit" value="Register">
+                
             </div>
             <div class="two-col">
                 <div class="one">
@@ -114,34 +117,13 @@
  
 </script>
 
-<script>
 
-    var a = document.getElementById("loginBtn");
-    var b = document.getElementById("registerBtn");
-    var x = document.getElementById("login");
-    var y = document.getElementById("register");
 
-    function login() {
-        x.style.left = "4px";
-        y.style.right = "-520px";
-        a.className += " white-btn";
-        b.className = "btn";
-        x.style.opacity = 1;
-        y.style.opacity = 0;
-    }
+   
 
-    function register() {
-        x.style.left = "-510px";
-        y.style.right = "5px";
-        a.className = "btn";
-        b.className += " white-btn";
-        x.style.opacity = 0;
-        y.style.opacity = 1;
-    }
 
-</script>
     
-    <!-- Your code comes here -->
+    
     </div>
 </div>
 </body>
