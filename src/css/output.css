@@ -1,3 +1,8 @@
 body{
-    background-image: url("/Capstone1/src/assets/istockphoto-1393884121-1024x1024.jpg")
+    background-image: url("/Capstone1/src/assets/istockphoto-1393884121-1024x1024.jpg");
+    text-align: center;
+    background-position: center;
+}
+form{
+    color: #e3a413;
 }
