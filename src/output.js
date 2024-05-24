@@ -4,9 +4,9 @@ function callValue(){
     var NoOfLaps= document.getElementById("NL").value;
     var FastestLap= document.getElementById("FL").value;
     var Penalties= document.getElementById("Pen").value;
-    document.writeln("Your info: "+DisplayName );
-    document.write("your Teamname: "+TeamName);
-    document.write("your number of laps : "+NoOfLaps);
-    document.write("your Fastest lap: "+FastestLap);
-    document.write("Penalties incurred: "+Penalties);
+    document.writeln("Your Race information; <br>"+ "Displayname: "+DisplayName+"<br>");
+    document.write("Teamname: "+TeamName+"<br>");
+    document.write("Number of Laps: "+NoOfLaps+"<br>");
+    document.write("Fastest Lap: "+FastestLap+"<br>");
+    document.write("Penalties: "+Penalties+"<br>");
 }
